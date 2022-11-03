@@ -40,9 +40,9 @@ for ( let i = 0; i < precios.length; i++){
 
 // Muestra en pantalla el nombre de los helados mas caros separados por (,).
 // It shows the name of the most expensive "helados" split by a comma.
-document.write(`Los helados disponibles son: ${heladosMasCaros.join(', ')}`); 
+document.write(`Te Recomiendo: <b>${heladosMasCaros.join(', ')}</b> <br>`); 
 vuelto = dineroDeUsuario - heladoMasCaro
 
 // Muestra en pantalla el vuelto redondeado y su cantidad de decimales limitadas por la funcion round.
 // It shows the change return rounded by the function round and limited by the decimals.
-document.write(`\n y su vuelto es de: $${Math.round((vuelto + Number.EPSILON)*100)/100}`)
+document.write(`\n Su vuelto es de: <b>$${Math.round((vuelto + Number.EPSILON)*100)/100}</b>`)
